@@ -24,7 +24,7 @@
 <style scoped>
   .about-me {
     background: white;
-    padding: 0px;
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
     text-align: center;
