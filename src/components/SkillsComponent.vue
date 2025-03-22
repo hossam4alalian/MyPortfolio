@@ -49,7 +49,7 @@
             ".Net", "Delphi", "Git", "SVN"
           ],
           other: [
-            "Office Packet"
+            "Office Package"
           ]
         }
       };
@@ -106,7 +106,7 @@
     transition: 0.2s;
   }
   
-    @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .skills {
       width: 90%;
       padding: 20px;
