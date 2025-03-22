@@ -2,10 +2,12 @@
   <HeaderComponent />
   <AboutComponent />
   <SkillsComponent />
+  <ContactComponent />
 </template>
 
 <script>
   import AboutComponent from './components/AboutComponent.vue';
+  import ContactComponent from './components/ContactComponent.vue';
   import HeaderComponent from './components/HeaderComponent.vue'
   import SkillsComponent from './components/SkillsComponent.vue';
 
@@ -14,7 +16,8 @@
     components: {
       HeaderComponent,
       SkillsComponent,
-      AboutComponent
+      AboutComponent,
+      ContactComponent
     }
   }
 </script>
