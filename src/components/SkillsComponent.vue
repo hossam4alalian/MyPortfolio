@@ -62,12 +62,12 @@
     background: white;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-top: 30px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 2px solid #eee;
   }
   
   .skills h2 {
@@ -85,7 +85,6 @@
     font-size: 1.5rem;
     color: #444;
     margin-bottom: 10px;
-    text-decoration: underline;
   }
   
   .skill-group ul {
@@ -98,7 +97,6 @@
   }
   
   .skill-group li {
-    background-color: #f1f1f1;
     padding: 8px 15px;
     border-radius: 6px;
     font-weight: 600;

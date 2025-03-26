@@ -26,12 +26,12 @@
     background: white;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-top: 30px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 2px solid #eee;
   }
 
   .about-me h2 {

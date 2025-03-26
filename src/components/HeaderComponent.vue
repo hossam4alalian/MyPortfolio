@@ -22,9 +22,8 @@
     text-align: center;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
-    margin: 25px auto;
     animation: fadeInSlide 0.8s ease-out;
+    border-bottom: 2px solid #eee;
   }
 
   .header h1 {

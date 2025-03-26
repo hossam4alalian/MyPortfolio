@@ -28,7 +28,6 @@
     text-align: center;
     color: #333;
     margin-top: 10px;
-    background: #f8f9fa;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
