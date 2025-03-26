@@ -2,6 +2,7 @@
   <HeaderComponent />
   <AboutComponent />
   <SkillsComponent />
+  <ProjectsComponent />
   <ContactComponent />
 </template>
 
@@ -9,6 +10,7 @@
   import AboutComponent from './components/AboutComponent.vue';
   import ContactComponent from './components/ContactComponent.vue';
   import HeaderComponent from './components/HeaderComponent.vue'
+  import ProjectsComponent from './components/ProjectsComponent.vue';
   import SkillsComponent from './components/SkillsComponent.vue';
 
   export default {
@@ -17,6 +19,7 @@
       HeaderComponent,
       SkillsComponent,
       AboutComponent,
+      ProjectsComponent,
       ContactComponent
     }
   }
