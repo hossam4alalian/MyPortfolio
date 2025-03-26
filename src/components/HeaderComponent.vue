@@ -23,7 +23,7 @@
     padding: 25px;
     border-radius: 15px;
     animation: fadeInSlide 0.8s ease-out;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #dfdada;
   }
 
   .header h1 {
@@ -41,7 +41,7 @@
     opacity: 0.9;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     .header {
       width: 95%;
       padding: 20px;

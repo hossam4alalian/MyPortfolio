@@ -25,13 +25,12 @@
   .about-me {
     background: white;
     padding: 40px;
-    border-radius: 12px;
     text-align: center;
     margin-top: 30px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #dfdada;
   }
 
   .about-me h2 {
