@@ -31,7 +31,6 @@
     .contact {
         padding: 1.875rem;            
         margin-top: 1.875rem;        
-        border-bottom: 0.125rem solid #dfdada; 
     }
 
     .contact p {
