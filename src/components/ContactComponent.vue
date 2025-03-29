@@ -29,59 +29,14 @@
 
 <style scoped>
     .contact {
-        background: white;
-        padding: 30px;
-        text-align: center;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        border-bottom: 2px solid #dfdada;
-    }
-
-    .contact h2 {
-        color: #ff416c;
-        font-size: 2rem;
-        margin-bottom: 15px;
-        text-transform: uppercase;
+        padding: 1.875rem;            
+        margin-top: 1.875rem;        
+        border-bottom: 0.125rem solid #dfdada; 
     }
 
     .contact p {
-        font-size: 1.1rem;
-        margin-bottom: 20px;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    input, textarea {
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        font-size: 1rem;
-        width: 100%;
-    }
-
-    textarea {
-        min-height: 120px;
-        resize: vertical;
-    }
-
-    button {
-        background: #ff416c;
-        color: white;
-        border: none;
-        padding: 12px;
-        border-radius: 6px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    button:hover {
-        background: #e1355c;
+        font-size: 1.1rem;    
+        margin-bottom: 1.25rem;        
     }
 </style>
     

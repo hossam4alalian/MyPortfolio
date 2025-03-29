@@ -37,13 +37,6 @@
         border-bottom: 0.125rem solid #dfdada; 
     }
 
-    .projects h2 {
-        color: #ff416c;
-        font-size: 2rem; 
-        margin-bottom: 1.5625rem; 
-        text-transform: uppercase;
-    }
-
     .project-list {
         display: flex;
         flex-wrap: wrap;
