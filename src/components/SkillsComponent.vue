@@ -62,58 +62,58 @@
   
 <style scoped>
   .skills {
-    padding: 25px;
-    margin-top: 30px;
-    border-bottom: 2px solid #dfdada;
+    padding: 1.5625rem;
+    margin-top: 1.875rem;
+    border-bottom: 0.125rem solid #dfdada;
   }
-  
+
   .skill-group {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
-  
+
   .skill-group h3 {
     font-size: 1.5rem;
     color: #444;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
-  
+
   .skill-group ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    gap: 0.75rem;
   }
 
   .certifications {
     flex-direction: column;
   }
-  
+
   .skill-group li {
-    padding: 8px 15px;
-    border-radius: 6px;
+    padding: 0.5rem 0.9375rem;
+    border-radius: 0.375rem;
     font-size: 1rem;
     transition: 0.2s;
   }
-  
-  @media (max-width: 600px) {
+
+  @media (max-width: 37.5rem) {
     .skills {
       width: 90%;
-      padding: 20px;
+      padding: 1.25rem;
     }
-  
+
     .skills h2 {
       font-size: 1.8rem;
     }
-  
+
     .skill-group h3 {
       font-size: 1.3rem;
     }
-  
+
     .skill-group li {
       font-size: 0.95rem;
-      padding: 7px 12px;
+      padding: 0.4375rem 0.75rem;
     }
   }
 </style>

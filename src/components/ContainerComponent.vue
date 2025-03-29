@@ -33,11 +33,11 @@
     ::v-deep h2 {
         color: #ff416c;
         font-size: 2rem;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         text-transform: uppercase;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 37.5rem) {
         .container {
             max-width: 90%;
         }

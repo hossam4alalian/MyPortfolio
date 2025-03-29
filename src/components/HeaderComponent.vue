@@ -20,7 +20,6 @@
     max-width: 42rem;
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     color: white;
-    text-align: center;
     padding: 25px;
     border-radius: 15px;
     animation: fadeInSlide 0.8s ease-out;
@@ -43,10 +42,11 @@
     color: white;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 37.5rem) {
     .header {
       width: unset;
     }
+
     .header h1 {
       font-size: 2.2rem;
       padding-bottom: 0.5em;
