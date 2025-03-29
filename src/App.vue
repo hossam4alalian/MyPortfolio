@@ -32,18 +32,8 @@ import ContainerComponent from './components/ContainerComponent.vue';
 <style>
   #app {
     font-family: "Poppins", Avenir, Helvetica, Arial, sans-serif;
-    text-align: center;
-    color: #333;
-    margin-top: 10px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-  }
-
-  * {
-    transition: all 0.3s ease-in-out;
+    margin-top: 0.625rem;
+    padding-bottom: 3.125rem;
   }
 </style>
 
