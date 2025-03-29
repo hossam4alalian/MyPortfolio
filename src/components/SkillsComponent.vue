@@ -73,7 +73,6 @@
 
   .skill-group h3 {
     font-size: 1.5rem;
-    color: #444;
     margin-bottom: 0.625rem;
   }
 

@@ -70,6 +70,8 @@
         font-size: 1rem; 
         color: #555;
         margin-bottom: 0.9375rem; 
+        text-align: left;
+        padding: 10px;
     }
 
     .project-card a {
