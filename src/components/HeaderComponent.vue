@@ -16,7 +16,8 @@
 <style scoped>
   .header {
     width: 90%;
-    max-width: 650px;
+    margin: auto;
+    max-width: 42rem;
     background: linear-gradient(to right, #ff4b2b, #ff416c);
     color: white;
     text-align: center;
@@ -39,16 +40,16 @@
     font-weight: 400;
     margin-top: 5px;
     opacity: 0.9;
+    color: white;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     .header {
-      width: 95%;
-      padding: 20px;
+      width: unset;
     }
-
     .header h1 {
       font-size: 2.2rem;
+      padding-bottom: 0.5em;
     }
 
     .header h2 {

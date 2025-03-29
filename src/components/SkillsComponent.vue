@@ -1,6 +1,6 @@
 <template>
     <div class="skills">
-      <h2>My Skills</h2>
+      <h2>My Skills & Certifications</h2>
 
       <div class="skill-group">
           <h3>Languages</h3>
@@ -24,9 +24,9 @@
       </div>
 
       <div class="skill-group">
-          <h3>Other</h3>
-          <ul>
-              <li v-for="item in skills.other" :key="item">{{ item }}</li>
+          <h3>Certifications</h3>
+          <ul class="certifications">
+              <li v-for="item in skills.certifications" :key="item">{{ item }}</li>
           </ul>
       </div>
     </div>
@@ -48,8 +48,11 @@
           tools: [
             ".Net", "Delphi", "Git", "SVN"
           ],
-          other: [
-            "Office Package"
+          certifications: [
+            "Continuing education in the form if a fourth technical year, focus: information technology.",
+            "MTA: Introduction till programming using JAVA.",
+            "Starta eget utbildning - Nyföretagcentrum",
+            "Digital information security training for all (Disa)."
           ]
         }
       };
@@ -59,21 +62,9 @@
   
 <style scoped>
   .skills {
-    background: white;
     padding: 25px;
-    text-align: center;
     margin-top: 30px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
     border-bottom: 2px solid #dfdada;
-  }
-  
-  .skills h2 {
-    color: #ff416c;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-transform: uppercase;
   }
   
   .skill-group {
@@ -94,11 +85,14 @@
     justify-content: center;
     gap: 12px;
   }
+
+  .certifications {
+    flex-direction: column;
+  }
   
   .skill-group li {
     padding: 8px 15px;
     border-radius: 6px;
-    font-weight: 600;
     font-size: 1rem;
     transition: 0.2s;
   }

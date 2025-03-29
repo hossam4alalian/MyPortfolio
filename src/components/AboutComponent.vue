@@ -23,41 +23,20 @@
   
 <style scoped>
   .about-me {
-    background: white;
-    padding: 40px;
-    text-align: center;
-    margin-top: 30px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid #dfdada;
-  }
-
-  .about-me h2 {
-    color: #ff416c;
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+    padding: 2.5rem; 
+    margin-top: 1.875rem;  
+    border-bottom: 0.125rem solid #dfdada; 
   }
 
   .about-me p {
-    font-size: 1.2rem;
+    font-size: 1rem;         
     color: #333;
     line-height: 1.6;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 37.5rem) {
     .about-me {
-      width: 90%;
-      padding: 20px;
-    }
-
-    .about-me h2 {
-      font-size: 1.8rem;
-    }
-
-    .about-me p {
-      font-size: 1rem;
+      padding: 1.25rem;        
     }
   }
 </style>

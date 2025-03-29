@@ -1,14 +1,17 @@
 <template>
-  <HeaderComponent />
-  <AboutComponent />
-  <SkillsComponent />
-  <ProjectsComponent />
-  <ContactComponent />
+  <ContainerComponent>
+    <HeaderComponent />
+    <AboutComponent />
+    <SkillsComponent />
+    <ProjectsComponent />
+    <ContactComponent />
+  </ContainerComponent>
 </template>
 
 <script>
   import AboutComponent from './components/AboutComponent.vue';
   import ContactComponent from './components/ContactComponent.vue';
+import ContainerComponent from './components/ContainerComponent.vue';
   import HeaderComponent from './components/HeaderComponent.vue'
   import ProjectsComponent from './components/ProjectsComponent.vue';
   import SkillsComponent from './components/SkillsComponent.vue';
@@ -20,7 +23,8 @@
       SkillsComponent,
       AboutComponent,
       ProjectsComponent,
-      ContactComponent
+      ContactComponent,
+      ContainerComponent
     }
   }
 </script>
