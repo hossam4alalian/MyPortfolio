@@ -51,7 +51,7 @@
           certifications: [
             "Continuing education in the form if a fourth technical year, focus: information technology.",
             "MTA: Introduction till programming using JAVA.",
-            "Starta eget utbildning - Nyföretagcentrum",
+            "Start your own business course (Starta eget utbildning) - Nyföretagcentrum",
             "Digital information security training for all (Disa)."
           ]
         }
