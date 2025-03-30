@@ -2,10 +2,11 @@
   <div class="about-me">
       <h2>About Me</h2>
       <h3>Welcome to My portfolio!</h3>
-      <p>
-          I am 26 years old and grew up in Aleppo in Syria, I moved to Sweden in 2013. I think it is very important to be happy at work, it is interesting and important to work in a competence team to get new challenges and develop, but I can also work by myself.
+      <p class="about-my-self">
+          I'm a positive and social developer who loves meeting new people and sharing good vibes 😄
+          Whether I'm working solo or collaborating in a team, I'm always up for a challenge and eager to grow.
           <br/>
-          I am a person who always tries to be happy and to make everyone around me happy. I always try to be social and get to know new people. Likes to play football, guitar, and computer games to talk to new people around the world.
+          Outside of code, you'll find me kicking a football ⚽, or gaming and chatting with people from all over the world 🎮🌍
           <br/>
       </p>
       <h3>EagleVision</h3>
@@ -32,6 +33,10 @@
     font-size: 1rem;         
     color: #333;
     line-height: 1.6;
+  }
+
+  .about-my-self {
+    padding-bottom: 2em;
   }
 
   .about-me h3 {
