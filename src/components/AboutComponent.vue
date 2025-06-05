@@ -7,11 +7,6 @@
           Whether I'm working solo or collaborating in a team, I'm always up for a challenge and eager to grow.
           <br/>
           Outside of code, you'll find me kicking a football ⚽, or gaming and chatting with people from all over the world 🎮🌍
-          <br/>
-      </p>
-      <h3>EagleVision</h3>
-      <p>
-          We provide custom web and app solutions for businesses and develop our own tech products alongside consultancy services.
       </p>
   </div>
 </template>
