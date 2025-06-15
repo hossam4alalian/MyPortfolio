@@ -23,6 +23,11 @@
             title: "Quizy",
             description: "A quiz website for schools and fun.",
             link: "https://quizyhils.com/"
+          },
+          {
+            title: "Task Manager (Work in progress)",
+            description: "A task manger website.",
+            link: ""
           }
         ]
       };

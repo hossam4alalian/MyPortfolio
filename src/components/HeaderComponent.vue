@@ -1,7 +1,7 @@
 <template>
   <div class="header">
       <h1>Hossam Alalian</h1>
-      <h2>EagleVision</h2>
+      <h2>Software Engineer</h2>
   </div>
 </template>
 
