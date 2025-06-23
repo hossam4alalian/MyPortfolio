@@ -39,11 +39,11 @@
       return {
         skills: {
           languages: [
-            "Java", "JavaScript", "TypeScript", "HTML", "CSS",
+            "Java", "JavaScript", "Python", "TypeScript", "HTML", "CSS",
             "C#", "PHP", "SQL", "YAML", "JSON"
           ],
           frameworks: [
-            "Vue.js", "Vue", "React", "Spring", "REST", "Junit"
+            "Vue.js", "Vue", "React", "Spring", "REST", "Junit", "FastAPI"
           ],
           tools: [
             ".Net", "Delphi", "Git", "SVN"

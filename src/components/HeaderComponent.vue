@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-      <h1>Hossam Alalian</h1>
+      <h1>Sam Alalian</h1>
       <h2>Software Engineer</h2>
   </div>
 </template>
